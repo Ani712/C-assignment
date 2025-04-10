@@ -2,11 +2,11 @@
 // Roll no. 2415000214(10)
 // Section - AG -1
 
-// basics.h
+
 #ifndef MY_H
 #define MY_H
 
-// Function to get integer input from user
+
 int get_input()
 {
     int num;
@@ -15,7 +15,7 @@ int get_input()
     return num;
 }
 
-// Reverse a number
+
 int reverse_number(int num)
 {
     int reversed = 0;
@@ -43,8 +43,7 @@ int is_strong_number(int num)
         {
             fact = fact * i;
         }
-        
-        sum = sum + fact;
+         sum = sum + fact;
         num = num / 10;
     }
     
